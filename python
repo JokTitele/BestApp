@@ -7,3 +7,6 @@ df = pd.DataFrame({'month': [1, 4, 7, 10],
 print(df.month)
 import matplotlib.pyplot as pt
 pt.plot(df.month,df.year)
+
+random_list = [1, 22, 3, 5, 11]
+x = "Berni"
