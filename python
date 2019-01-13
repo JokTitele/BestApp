@@ -5,3 +5,5 @@ df = pd.DataFrame({'month': [1, 4, 7, 10],
                    'sale':[55, 40, 84, 31]})
 
 print(df.month)
+import matplotlib.pyplot as pt
+pt.plot(df.month,df.year)
